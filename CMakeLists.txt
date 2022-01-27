@@ -13,8 +13,8 @@ set(CMAKE_CXX_STANDARD 14)
 
 #Custome Setting, can be set thought cmake parameter
 set(PYTORCH_INSTALL_DIR /home/lesliefang/pytorch_1_7_1/runtime/pytorch-spr/torch)
-#set(IPEX_INSTALL_DIR /home/lesliefang/pytorch_1_7_1/runtime/frameworks.ai.pytorch.ipex-cpu/build/Release/packages/intel_extension_for_pytorch)
-set(IPEX_INSTALL_DIR /home/lesliefang/pytorch_1_7_1/runtime/frameworks.ai.pytorch.ipex-cpu/build/Debug/packages/intel_extension_for_pytorch)
+set(IPEX_INSTALL_DIR /home/lesliefang/pytorch_1_7_1/runtime/frameworks.ai.pytorch.ipex-cpu/build/Release/packages/intel_extension_for_pytorch)
+#set(IPEX_INSTALL_DIR /home/lesliefang/pytorch_1_7_1/runtime/frameworks.ai.pytorch.ipex-cpu/build/Debug/packages/intel_extension_for_pytorch)
 set(IPEX_INCLUDE_DIR /home/lesliefang/pytorch_1_7_1/runtime/frameworks.ai.pytorch.ipex-cpu/intel_extension_for_pytorch)
 
 # Set the include dir
